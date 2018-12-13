@@ -1,0 +1,22 @@
+body {
+    background-color: #2a0a82;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: gold;
+    font-size: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+}
